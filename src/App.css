@@ -1,0 +1,157 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.questionTitle {
+  color: rgb(81, 78, 78);
+}
+.category {
+  margin-top: -40px;
+  font-weight: 400;
+  color: gray;
+}
+
+.stars {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.selectedOptionStyle {
+  margin-left: 70px;
+}
+
+.row {
+  margin-top: 60px;
+  justify-content: space-around;
+}
+
+.progress {
+  margin-top: 0%;
+  margin-bottom: 20px;
+  border: 1px solid;
+  width: 80%;
+  height: 20px;
+}
+
+.barProgress {
+  display: flex;
+  height: 6px;
+  margin: 20px 0;
+  width: 80%;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.partialBarProgress {
+  transition: width 2s;
+}
+
+.form-style {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-inline {
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+.optionList {
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.convertededtext {
+  margin-right: 45px;
+}
+
+body {
+  background-color: purple;
+  color: black;
+  text-align: center;
+  margin-bottom: -200px;
+  margin-top: 100px;
+  margin-right: 80px;
+  opacity: 0.6;
+}
+.selector {
+  margin: 100px 400px;
+  margin-right: 400px;
+  border: 2px solid black;
+  color: white;
+  border-radius: 50px;
+  padding: 60px;
+  letter-spacing: 7px;
+  width: fit-content;
+}
+
+.next {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.correct {
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+}
+
+.wrong {
+  border: 1px solid;
+  border-radius: 6px;
+  text-align: center;
+  color: green;
+  background-color: white;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  #mainContainer {
+    width: 90%;
+    border: 5px gainsboro solid;
+  }
+
+  .resultText {
+    margin-left: 110px;
+  }
+}
+
+@media (min-width: 500px) {
+  #mainContainer {
+    width: 50%;
+    border: 5px gainsboro solid;
+  }
+  .resultText {
+    margin-left: 145px;
+  }
+}
+.frame {
+  max-width: 960px;
+
+  margin: 50px;
+  margin-left: 400px;
+  padding: 10px;
+  padding-right: 30px;
+  width: 700px;
+  height: 600px;
+  border: 5px solid rgb(182, 172, 172);
+  background-color: whitesmoke;
+}
